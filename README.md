@@ -13,7 +13,7 @@ Drop the `PacedCutscene` folder into your `/addons/` directory, then load it in-
 ## Commands
 
 All commands use the `/pcs` prefix.
-
+```
 |  Command                | What it does |
 |                         |
 | `/pcs help`             | Show all commands and current settings |
@@ -21,13 +21,13 @@ All commands use the `/pcs` prefix.
 | `/pcs off`              | Turn off auto-advancing |
 | `/pcs delay <seconds>`  | Set how long each dialog box stays on screen (0.3 - 10.0) |
 | `/pcs skip`             | Toggle whether lines with item/key item prompts are auto-advanced |
-
+```
 ## Examples
-
+```
 - `/pcs delay 2`    - Wait 2 seconds before advancing each dialog line
 - `/pcs delay 0.5`  - Speed things up to half a second per line
 - `/pcs skip`       - Allow auto-advancing through item reward prompts (off by default)
-
+```
 ## Default Settings
 
 - **Auto-advance:** On
